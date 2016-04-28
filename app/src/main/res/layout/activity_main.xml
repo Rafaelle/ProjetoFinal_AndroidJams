@@ -25,7 +25,7 @@
             android:layout_height="match_parent"
             android:src="@drawable/mad_max_img"
             android:layout_weight="1"
-            android:onClick="filmeClicado"/>
+            android:onClick="onCLickFilme"/>
 
         <ImageView
             android:id="@+id/divertidamenteLayout"
@@ -33,7 +33,7 @@
             android:layout_height="match_parent"
             android:src="@drawable/divertidamente_img"
             android:layout_weight="1"
-            android:onClick="filmeClicado"/>
+            android:onClick="onCLickFilme"/>
 
     </LinearLayout>
 
@@ -51,7 +51,7 @@
             android:layout_height="match_parent"
             android:src="@drawable/avengers_img"
             android:layout_weight="1"
-            android:onClick="filmeClicado"/>
+            android:onClick="onCLickFilme"/>
 
         <ImageView
             android:id="@+id/queHorasElaVoltaLayout"
@@ -59,7 +59,7 @@
             android:layout_height="match_parent"
             android:src="@drawable/que_horas_ela_volta_img"
             android:layout_weight="1"
-            android:onClick="filmeClicado"/>
+            android:onClick="onCLickFilme"/>
 
     </LinearLayout>
 
@@ -75,7 +75,7 @@
             android:layout_height="match_parent"
             android:src="@drawable/star_wars_img"
             android:layout_weight="1"
-            android:onClick="filmeClicado"/>
+            android:onClick="onCLickFilme"/>
 
         <ImageView
             android:id="@+id/jurassicWorldLayout"
@@ -83,7 +83,7 @@
             android:layout_height="match_parent"
             android:src="@drawable/jurassic_world_img"
             android:layout_weight="1"
-            android:onClick="filmeClicado"/>
+            android:onClick="onCLickFilme"/>
 
 
     </LinearLayout>
