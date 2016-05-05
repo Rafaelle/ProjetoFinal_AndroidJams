@@ -69,7 +69,11 @@ public class DetalhesFilmeFragment extends Fragment {
         descricao.setText(filme.getDescricao());
 
         CheckBox checkBox = (CheckBox) mView.findViewById(R.id.favoritoFilme);
-        checkBox.setChecked(SharedPreferencesUtils.getIsFavorito(getContext(), filme.getIdImg()));
+        if (SharedPreferencesUtils.getIsFavorito(getContext(), filme.getIdImg())){
+            checkBox.setChecked(true);
+        } else {
+            checkBox.setChecked(false);
+        }
 
         checkBox.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override

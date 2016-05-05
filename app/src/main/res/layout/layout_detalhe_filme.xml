@@ -82,9 +82,11 @@
             android:layout_height="wrap_content"
             android:id="@+id/favoritoFilme"
             android:layout_toRightOf="@+id/imagemFilme"
-            android:layout_below="@+id/nota" />
+            android:layout_below="@+id/nota"
+            />
 
     </RelativeLayout>
+
 
     <TextView
         android:layout_marginTop="10dp"
@@ -94,29 +96,13 @@
         android:padding="10sp"
         android:text="DESCRIÇÂO"/>
 
-    <LinearLayout
+
+    <Button
         android:layout_width="wrap_content"
-        android:layout_height="50dp"
-        android:id="@+id/assistir"
-        android:orientation="horizontal"
-        android:onClick="onClickTrailer">
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:background="@drawable/youtube"
-            android:layout_marginBottom="@dimen/activity_horizontal_margin"
-            />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text="Assistir trailer"
-            android:textSize="20sp"
-            android:layout_margin="5dp"
-            android:textAlignment="center"/>
-
-    </LinearLayout>
+        android:layout_height="wrap_content"
+        android:text="assistir trailer"
+        android:onClick="onClickTrailer"
+        android:layout_marginBottom="10dp"/>
 
 
 </LinearLayout>

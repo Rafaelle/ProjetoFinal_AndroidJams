@@ -8,6 +8,7 @@ import android.util.Log;
 import android.view.View;
 
 import com.example.rafaelle.projetofinal_androidjams.R;
+import com.example.rafaelle.projetofinal_androidjams.SharedPreferencesUtils;
 import com.example.rafaelle.projetofinal_androidjams.models.Filme;
 import com.example.rafaelle.projetofinal_androidjams.DetalhesFilmeFragment;
 
@@ -36,4 +37,5 @@ public class DetalhesFilmeActivity extends AppCompatActivity {
         i.setData(Uri.parse(filme.getURITrailer()));
         startActivity(i);
     }
+
 }
