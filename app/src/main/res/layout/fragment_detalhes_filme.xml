@@ -1,36 +1,9 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.rafaelle.projetofinal_androidjams.activity.DetalhesFilmeFragment"
     android:layout_margin="@dimen/activity_horizontal_margin"
-    android:orientation="vertical">
-
-    <!-- TODO: Update blank fragment layout -->
-
-    <TextView
-        android:id="@+id/tituloFilme"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="20dp"
-        android:gravity="center_vertical"
-        android:text="MAD MAX" />
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <ImageView
-            android:id="@+id/imagemFilme"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"/>
-        <TextView
-            android:id="@+id/anoFilme"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="2015"
-            android:textSize="20dp"
-            android:layout_toRightOf="@+id/imagemFilme"
-            />
-    </RelativeLayout>
-
-</LinearLayout>
+    android:orientation="vertical"
+    android:id="@+id/fragDetalhesFilme">
+</ScrollView >

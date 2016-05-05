@@ -1,6 +1,57 @@
 <resources>
-    <string name="app_name">MovieCulture</string>
+    <string name="app_name">Movies</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Favorita">Favorito</string>
+
+    <string name="descAvengers">"Tony Stark tenta colocar em prática um programa "
+        "virtual de paz, mas os planos correm mal e o vilão "
+        "Ultron entra em ação. Cabe então aos Vingadores "
+        "neutralizá-lo e impedir a extinção humana. "
+        "Conseguirá a equipa de super-heróis salvar o planeta?"
+    </string>
+
+    <string name="descDivertidamente">
+        "Riley é uma garota divertida de 11 anos de idade, "
+        "que deve enfrentar mudanças importantes em sua vida "
+        "quando seus pais decidem deixar a sua cidade natal, "
+        "no centro dos Estados Unidos, para viver em São "
+        "Francisco. Dentro do cérebro de Riley, convivem "
+        "várias emoções diferentes, como a Alegria, o Medo, "
+        "a Raiva, o Nojinho e a Tristeza. Embora esses grupos "
+        "sejam normalmente organizados, a chegada de Riley a "
+        "uma nova escola faz com que todas as emoções se misturem. "
+    </string>
+
+    <string name="descJurassicWorld">
+        "Anos após Jurassic Park ser naugurado, um resort "
+        "temático atrai milhares de visitantes a cada ano, "
+        "assim como John Hammond previu. No entanto, mais uma "
+        "vez, as tentativas da humanidade de interferir com a "
+        "natureza trazem resultados ameaçadores."
+    </string>
+
+    <string name="descMadMax">
+        "Num mundo pós-apocalíptico, Mad Max continua as suas "
+        "aventuras... Desta vez, terá de enfrentar um "
+        "Senhor da Guerra e o seu gangue letal, com a ajuda "
+        "de um grupo de desertores."
+    </string>
+
+    <string name="descQueHorasElaVolta">
+        "Uma mulher se muda para São Paulo para poder dar uma "
+        "vida melhor à sua filha, que ficou em Pernambuco. "
+        "Mas quando sua filha vai para São Paulo prestar "
+        "vestibular e se hospeda na casa onde sua mãe "
+        "trabalha as coisas acabam tomando um rumo inesperado."
+    </string>
+
+    <string name="descStarWars">"Trinta anos se passaram, Luke está desparecido, "
+        "mas o Lado Negro da Força se mostra ainda mais "
+        "surpreendente através de uma nova organização "
+        "conhecida apenas como a Primeira Ordem. "
+        "Agora, a Princesa Leia, Han Solo, Chewbacca, "
+        "os robôs C-3PO e R2-D2 deverão unir forças a novos "
+        "personagens para evitar que o vilão Kylo Ren acabe "
+        "com a República e a Resistência."</string>
+
 </resources>
